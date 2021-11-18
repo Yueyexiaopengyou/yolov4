@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 3, in <module>
+    from model.build_model import Build_Model
+  File "/content/drive/My Drive/YOLOv4-pytorch-master/model/build_model.py", line 8, in <module>
+    from model.YOLOv4 import YOLOv4
+  File "/content/drive/My Drive/YOLOv4-pytorch-master/model/YOLOv4.py", line 9, in <module>
+    from .layers.global_context_block import ContextBlock2d
+  File "/content/drive/My Drive/YOLOv4-pytorch-master/model/layers/global_context_block.py", line 3, in <module>
+    from mmcv.cnn import constant_init, kaiming_init
+ModuleNotFoundError: No module named 'mmcv'
